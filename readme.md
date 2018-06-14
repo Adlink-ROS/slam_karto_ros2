@@ -28,7 +28,7 @@ $ ament build --isolated --build-tests --symlink-install --only slam_karto
 $ ros2 run slam_karto slam_karto  
   
 ## Visualization
-Currently, rviz2 doesn't support "nav_msgs/MapMetaData", hence, you can use ros1_bridge to see the result in ROS 1.0 rviz.
+Currently, rviz2 doesn't support "nav_msgs/MapMetaData", hence, you can use ros1_bridge to see the result in ROS 1.0 rviz.  
 $ ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics  
 
 ## Roadmap   
