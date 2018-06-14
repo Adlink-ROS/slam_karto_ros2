@@ -22,7 +22,7 @@ $ cd ~/ros2_ws
 $ ament build --only-packages slam_karto  
   
 For isolated build  
-$ ament build --isolated --build-tests --symlink-install --only slam_karto  
+$ ament build --isolated --symlink-install --only slam_karto  
 
 ## Execute  
 $ ros2 run slam_karto slam_karto  
