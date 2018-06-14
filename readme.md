@@ -5,7 +5,11 @@ The original repo (ROS 1.0) was developed by OSRF team.
 The original version needs dependency: open_karto    
 However, in order to decrease the complicility of compilation in ament env,  
 we mergered open_karto into slam_karto for ROS 2.0 version.  
-
+   
+original repo  
+* slam_karto: https://github.com/ros-perception/slam_karto   
+* open_karto: https://github.com/ros-perception/open_karto   
+  
 ## Developer  
 * HaoChih, LIN (haochih.lin@adlinktech.com)  
 
