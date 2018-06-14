@@ -1,0 +1,38 @@
+<package format="2">
+  <name>slam_karto</name>
+  <description>
+     This is the ROS 2.0 version of slam_karto pkg (merged with open_karto pkg) 
+  </description>
+  <version>0.0.1</version>
+  <maintainer email="haochih.lin@adlinktech.com">HaoChih, Lin</maintainer>
+  <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
+  <maintainer email="lbettaieb@fetchrobotics.com">Luc Bettaieb</maintainer>
+  <author>Brian Gerkey</author>
+  <license>LGPL</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sparse_bundle_adjustment</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>tf2_msgs</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sparse_bundle_adjustment</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_msgs</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
