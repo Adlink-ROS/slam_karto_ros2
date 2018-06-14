@@ -36,5 +36,6 @@ Currently, rviz2 doesn't support "nav_msgs/MapMetaData", hence, you can use ros1
 $ ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics  
 
 ## Roadmap   
+* Remove Boost dependency  
 * Add parameter service  
 * Add use_sim_time support  
